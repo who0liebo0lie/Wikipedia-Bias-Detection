@@ -33,6 +33,28 @@ Build a machine learning pipeline that:
 Jeel Faldu (jeelfaldu7) she/her
 Tirso Paneque he/her
 
+### 🛠️ Industry-Ready Techniques Demonstrated
+
+| Technique                         | Example or Description                                                                 |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| BERT Fine-Tuning                 | Applied Hugging Face `transformers` for bias classification and tagging               |
+| Named Entity Recognition (NER)   | Token-level labeling using BERT-based sequence models                                  |
+| Multi-Class Classification       | Fine-grained bias severity detection across multiple classes                           |
+| Custom Evaluation Metrics        | Implemented exact and partial match F1 scoring                                         |
+| Token Classification             | Used for detecting biased phrases in Wikipedia text                                    |
+| Data Annotation & Preprocessing  | Handled multi-span annotations and custom tagging formats                              |
+| Shell Scripting for Automation   | Reproducible training via `run_bert_ner*.sh` scripts                                   |
+| Modular Codebase                 | Separate directories for classification, tagging, data, and evaluation                 |
+| PyTorch + Hugging Face Ecosystem| Standard ML stack for model training and deployment                                    |
+| Reproducible ML Environment      | Pinned dependencies in `requirements.txt`                                              |
+| Jupyter Notebooks for Evaluation | Used `eval.ipynb` to visualize and interpret model performance                         |
+| Error Analysis                   | Identified and analyzed model weaknesses post-inference                                |
+| Handling Noisy Labels            | Accounted for ambiguous and overlapping annotations                                    |
+| Multi-Span Annotation Handling   | Built support for token-level tags with multiple spans per sentence                    |
+| Train/Dev/Test Data Splits       | Clean separation of datasets for unbiased benchmarking                                 |
+| Applied NLP for Bias Detection   | End-to-end pipeline from raw Wikipedia articles to bias tag prediction                 |
+
+
 ## 🔄 Workflow
 1. Data Collection
 Data is sourced from:
